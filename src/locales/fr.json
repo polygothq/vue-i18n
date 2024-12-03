@@ -1,0 +1,12 @@
+{
+  "home": {
+    "didIt": "Vous l'avez fait!"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "A propos"
+  },
+  "cart": {
+    "count": "Vous avez 0 élément dans votre panier.|Vous avez 1 élément dans votre panier.|Vous avez {count} éléments dans votre panier."
+  }
+}
