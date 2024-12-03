@@ -1,0 +1,14 @@
+{
+  "home": {
+    "didIt": "You did it!",
+    "success": "You've successfully created a project with"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "cart": {
+    "count": "You have 0 items in your cart.|You have 1 item in your cart.|You have {count} items in your cart.",
+    "add": "Add 1 item"
+  }
+}
