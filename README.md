@@ -24,6 +24,7 @@ Find out more about this repository on the [Polygot](https://polygothq.com) blog
 
 ```bash
 cd vue-i18n
+npm install
 npm run dev
 ```
 

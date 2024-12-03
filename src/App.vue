@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import LocalSelector from './components/LocalSelector.vue';
 import Cart from './components/Cart.vue';
@@ -7,6 +7,9 @@ import LocalRouterLink from './components/LocalRouterLink.vue';
 </script>
 
 <template>
+  <LocalSelector />
+  <Cart />
+
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
@@ -23,10 +26,6 @@ import LocalRouterLink from './components/LocalRouterLink.vue';
       </nav>
     </div>
   </header>
-
-  <Cart style="margin-top: 50px;" />
-
-  <LocalSelector style="margin-top: 50px;" />
 
   <RouterView />
 </template>
